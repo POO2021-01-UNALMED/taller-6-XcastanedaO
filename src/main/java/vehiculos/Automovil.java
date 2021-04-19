@@ -12,6 +12,7 @@ public class Automovil extends Vehiculo {
 		totalAuto++;
 	}
 	
+		
 	public int getTotalAuto() {
 		return totalAuto;
 	}

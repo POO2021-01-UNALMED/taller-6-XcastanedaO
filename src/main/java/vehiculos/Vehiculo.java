@@ -12,7 +12,7 @@ public class Vehiculo {
 	String traccion;
 	Fabricante fabricante;
 	static int cantVehiculos = 0;
-	static ArrayList<Vehiculo> vehiculos;
+	static ArrayList<Vehiculo> vehiculos = new ArrayList<Vehiculo>();
 		
 	public Vehiculo() {}
 	
@@ -33,7 +33,7 @@ public class Vehiculo {
 		return cantVehiculos;
 	}
 
-	public String vehiculosPorTipo() {
+	public static String vehiculosPorTipo() {
 		return "Automoviles: " + Automovil.totalAuto + "\n" +
 			"Camionetas: " + Camioneta.totalCamioneta + "\n" +
 			"Camiones: " + Camion.totalCamion;
