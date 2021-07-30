@@ -15,7 +15,7 @@ public class Vehiculo {
 	static ArrayList<Vehiculo> vehiculos = new ArrayList<Vehiculo>();
 		
 	public Vehiculo() {
-		cantVehiculos++;
+		//cantVehiculos++;
 	}
 	
 	public Vehiculo(String placa,int puertas, int velocidad, String nombre, int precio, int peso, String traccion, Fabricante fabricante) {
